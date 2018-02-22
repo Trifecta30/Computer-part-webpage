@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Character set configuration -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Viewport configuration, scaling options -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Site title -->
+	<title>Display devices</title>
+
+<!-- Stylesheets -->
+	<!-- Slick carousel -->
+	<link rel="stylesheet" href="js/slick/slick.css"/>
+	<!-- FancyBox -->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" />
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+<!-- /Stylesheets -->
+
+</head>
+<body>
+<div class="wrapper index-page">
+	<header class="header" id="general">
+		<div class="header-fixed">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-xs-2">
+						<div class="logo">
+							<a href="index.html#general"><img src="images/logotip.png" alt="No need for this"></a>
+						</div>
+					</div>
+					<nav class="col-md-7 col-md-offset-3 col-xs-9 col-xs-offset-1">
+						<div class="nav-icon">
+							<i class="fa fa-bars"></i>
+						</div>
+						<ul class="main-nav-list">
+							<li class="main-nav-item active"><a href="#general">General</a></li>
+							<li class="main-nav-item"><a href="#about">About</a></li>
+							<li class="main-nav-item"><a href="#price">Price</a></li>
+							<li class="main-nav-item"><a href="#team">Team</a></li>
+							<li class="main-nav-item"><a href="blog.html">Blog</a></li>
+							<li class="main-nav-item"><a href="gallery.html">Gallery</a></li>
+							<li class="main-nav-item"><a href="#contacts">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h1 class="main-title"><span class="main-title-dark">This will be the disclaimer</span> K-i-m</h1>
+			<div class="main-anons">Renamed for fun</div>
+			<div class="email-form">
+				<div class="email-wrap">
+					<input type="text" class="email-input" placeholder="Email..."><button class="email-btn button">I dunno we want one of these?</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<h2 class="center-title">Intro</h2>
+			<div class="center-text">Intro placeholder</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12">
+					<div class="about-image">
+						<img src="https://st2.depositphotos.com/1010146/7649/i/950/depositphotos_76495601-stock-photo-smiling-guy-in-glasses-closeup.jpg" alt="Creepy smiling guy">
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div class="about-info">
+						<div class="left-title">History</div>
+						<div class="about-text">
+							<p>History placeholder </p>
+						</div>
+						<div class="about-buttons">
+							<button class="about-btn button">Sources (to be moved if there is time)</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="slide">
+		<div class="container">
+			<div class="slide-wrap">
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="https://st2.depositphotos.com/1010146/7649/i/950/depositphotos_76495601-stock-photo-smiling-guy-in-glasses-closeup.jpg" alt="Another one until we figure it out">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">Hopefully we can get at least one other point</h3>
+								<div class="slide-text">
+									<p>plceholder for that point.</p>
+									</ul>
+								</div>
+								<div class="slide-button">
+									<button class="slide-btn button">Boop</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="https://st2.depositphotos.com/1010146/7649/i/950/depositphotos_76495601-stock-photo-smiling-guy-in-glasses-closeup.jpg" alt="Delete this">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">One more?</h3>
+								<div class="slide-text">
+									<p>Delete if we don't get one</p>
+								<div class="slide-button">
+									<button class="slide-btn button">Slideshow images to finish once I figure out css</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="images/slide3.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">Lorem ipsum</h3>
+								<div class="slide-text">
+									<p>placeholder 1</p>
+									<p>placeholer 2</p>
+								</div>
+								<div class="slide-button">
+									<button class="slide-btn button">Get high refresh rate screens</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo" id="promo">
+		<div class="container">
+			<h2 class="center-title white-title">Resolution</h2>
+			<div class="center-text promo-text">Resolution paragraph placeholder</div>
+			<div class="promo-video">
+				<img class="resolution-img" src="https://i.ytimg.com/vi/VkU0bjZwJ0o/maxresdefault.jpg" alt="screen comparison" style="width:500px;height:600px;">
+			</div>
+		</div>
+	</section>
+	<section class="digits">
+		<div class="container">
+			<h2 class="center-title">Lorem ipsum</h2>
+			<div class="center-text">The number of users using 1080p</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="85">
+							<div class="digits-circle-inner">
+								<span>85</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-user"></i>The number of our users using 720p/900p</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="68">
+							<div class="digits-circle-inner">
+								<span>68</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-windows"></i>The number of users using 1440p</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="42">
+							<div class="digits-circle-inner">
+								<span>42</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-mobile"></i>Phone screens placeholder</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="price" id="price">
+		<div class="container">
+			<h2 class="center-title">Price</h2>
+			<div class="center-text">Screens vary greatly in price depending on what you are looking for in a screen but mainly hover around the $500 mark for a regular screen.</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="price-item">
+						<div class="price-item-top">Basic screen</div>
+						<div class="price-value">$ <b>499/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+						</ul>
+						<button class="price-btn button">buy now (add link to site)</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="price-item color-price-item">
+						<div class="price-item-top">good midrange options</div>
+						<div class="price-value">$ <b>999/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+							<li>6.</li>
+							<li>7.</li>
+						</ul>
+						<button class="price-btn button">buy now</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+					<div class="price-item">
+						<div class="price-item-top">Asus high refresh placeholder</div>
+						<div class="price-value">$ <b>1499 (demo price)/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+							<li>6.</li>
+						</ul>
+						<button class="price-btn button">buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team" id="team">
+		<div class="container">
+			<h2 class="center-title">Team</h2>
+						<div class="col-md-3 col-sm-6">
+							<div class="screen-item">
+								<div class="Screen-image">
+									<img src="https://images-na.ssl-images-amazon.com/images/I/41vUM6y11bL._SL500_AC_SS350_.jpg" alt="Screen">
+								</div>
+								<div class="team-info">
+									<div class="team-name">Display adapters</div>
+									<div class="team-position">Co-creator</div>
+									<div class="team-about">About team if we want to include</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="buy">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<h3 class="left-title">Place holder for last title</h3>
+					<div class="row">
+						<div class="col-md-8">
+							<div class="buy-text">Plce holder for closing</div>
+						</div>
+						<div class="col-md-3 col-sm-offset-1">
+							<button class="buy-btn button">Buy</button>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+									<div class="clear"></div>
+								</div>
+								<div class="contacts-form-row">
+									<textarea class="contacts-textarea" placeholder="Comments"></textarea>
+								</div>
+								<button class="contacts-btn button">fun button (they are easier to place than remove)</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<iframe src="https://www.google.ca/maps/place/Silicon+Valley,+CA,+USA/@37.402473,-122.3212783,10z/data=!3m1!4b1!4m5!3m4!1s0x808fb68ad0cfc739:0x7eb356b66bd4b50e!8m2!3d37.387474!4d-122.0575434" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-item">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-item">
+							<div class="footer-title">Share</div>
+							<div class="footer-text">
+								<div class="footer-social">
+									<a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-item">
+							<div class="footer-title">Thanks</div>
+							<div class="footer-text">Thank you!</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<br><a href="https://en.wikipedia.org/wiki/World" target="_blank">bloop another placeholder</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--         -Popups-          -->
+	<!-- Overlay -->
+	<div class="overlay"></div>
+
+	<!-- Thanks popup -->
+	<div class="popup popup-thanks">
+		<div class="popup-close"><i class="fa fa-times"></i></div>
+		<div class="popup-inner">
+			<div class="thanks-text">Read this then click this</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
