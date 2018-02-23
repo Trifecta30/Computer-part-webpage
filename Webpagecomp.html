@@ -1,12 +1,398 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Display devices</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+	<!-- Character set configuration -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Viewport configuration, scaling options -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-ics3u computer part project
+	<!-- Site title -->
+	<title>Display devices</title>
 
-    </body>
+<!-- Stylesheets -->
+	<!-- Slick carousel -->
+	<link rel="stylesheet" href="js/slick/slick.css"/>
+	<!-- FancyBox -->
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css?v=2.1.5" />
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+<!-- /Stylesheets -->
+
+</head>
+<body bgcolor="rgb(10,10,10)">
+<div class="wrapper index-page">
+	<header class="header" id="general">
+		<div class="header-fixed">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-xs-2">
+						<div class="logo">
+							<a href="index.html#general"><img src="images/logotip.png" alt="No need for this"></a>
+						</div>
+					</div>
+					<nav class="col-md-7 col-md-offset-3 col-xs-9 col-xs-offset-1">
+						<div class="nav-icon">
+							<i class="fa fa-bars"></i>
+						</div>
+						<ul class="main-nav-list">
+							<li class="main-nav-item active"><a href="#general">General</a></li>
+							<li class="main-nav-item"><a href="#about">About</a></li>
+							<li class="main-nav-item"><a href="#price">Price</a></li>
+							<li class="main-nav-item"><a href="#team">Team</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+<font color="white"><h1 class="main-title"><span class="main-title-light">Disclaimer</h1>
+			<font color="white"><h1 class="main-title"><span class="main-title-light">
+Since CRT is pretty much dead in today's market the only forms of display that will be mentioned are going to be LED onwards. We will also be skipping over display types that are not used with computers such as vacuum fluorescent displays used in clocks and disk displays used in old train signs.</font>
+			<div class="main-anons">Renamed for fun</div>
+			<div class="email-form">
+				<div class="email-wrap">
+					<input type="text" class="box thingy" placeholder="Put your favorite screen or something"><button class="button">I dunno we want one of these?</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about" id="about">
+		<div class="container">
+			<font color="white"><h2 class="center-title">Intro</h2>
+			<font color="white"><div class="center-text">Screens are the way your computer can show you the amalgamation of all the parts working together. Screens come in many forms at many different price levels and like all components of a computer each type of screen is better for different types of people. </div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12">
+					<div class="about-image">
+						<img src="https://openclipart.org/image/2400px/svg_to_png/140431/monitor-screen.png" alt="Screen 1" style="width:500px;height:600px;">
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div class="about-info">
+						<div class="left-title">History</div>
+						<div class="about-text">
+							<p>Screens have a long past stretching back all the way to 1897 with the first cathode ray tube (CRT) technology emerged
+								and became commercial in 1922. Since then screens have come a long way with plasma, LCD, LED, and OLED each with their
+								own advantages and downsides. In 1968 LED made its debut and would quickly revolutionize screens with its accurate colors
+								 and ability to display 32 bit colors rather than 16. In 1986 LCD appeared on the market and it allowed for much higher
+								  resolutions to be developed. In the 1970’s plasma blew up but due to its many flaws and competition with cheaper LCD
+									plasma and the the relatively new OLED it is beginning to die out.  In 2003 OLED managed to overcome the original flaws
+									 of led and is now arguably one of the most promising screen types.</p>
+						</div>
+						<div class="about-buttons">
+							<button class="button"><a href="#Sources">Sources</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="slide">
+		<div class="container">
+			<div class="slide-wrap">
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="https://dl4ih61pxf6wa.cloudfront.net/wp-content/uploads/2016/04/03150729/Frame-rates-300x235.jpg" alt="FPS">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">Refresh rate</h3>
+								<div class="slide-text">
+									<p>Screens have a refresh rate which is how many times the screen can refresh the pixels on the screen. The exception to this
+										general definition is plasma which uses pulse-width modulation to create it’s image which results in ridiculous refresh rates
+										such as 600 hz (or 600 refreshes per second) pulse-width modulation is a method by which the plasma is lit up at very quick
+										 rates to create an image at different brightness. This is required since unlike other forms of display which can light up and
+										  different levels of intensity, plasma works more like an on and off switch. To combat the fact that it can only have one level
+											 of brightness on its image it quickly flashes multiple dark images which our brain pieces together into a single bright image.
+											  The difference between this and the refresh of LCD and LED is each frame displayed on both LCD and LED is an independently
+												 rendered image while a refresh of a plasma is just a copy of a previous image being repeated many times to create an
+												  illusion of intensity. When it comes to gaming a high refresh rate can be a valuable asset. For example if someone
+													 with a 60hz monitor was to face someone with a 120hz monitor they would only have 60 frames to base the decision
+													  of their shot on while the other person would have twice that and therefore could make a more informed shot. Frames
+														 per second are not the only measurement of performance however, frametime, the amount of time it takes for you computer
+														  to render a frame, can actually be a more important indicator of performance especially in a game. Simply put if
+															 frame times are not consistent than even a consistent framerate can appear to stutter. </p>
+
+															 <img src="https://i.ytimg.com/vi/3p82yPkvnEw/maxresdefault.jpg" alt="Sync"style="width:450px;height:300px;">
+
+															<p> This is combated by using
+															  vsync, gsync, and freesync. These 3 syncing methods are vastly different but all aim to bring you the same result
+																 of a smooth gaming experience. Vsync achieves this goal by syncing your framerate and frametimes with that of
+																  your screen and therefore can work on any graphics card. Gsync and freesync however belong to Nvidia and AMD
+																	 respectively. Both go the extra step and sync your frame times with that of your gpu and displays it on your
+																	  screen since. This eliminates screen tearing and creates a smoother experience even at lower framerates. </p>
+</p>
+									</ul>
+								</div>
+								<div class="slide-button">
+									<button class="slide-btn button">Boop</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="https://st2.depositphotos.com/1010146/7649/i/950/depositphotos_76495601-stock-photo-smiling-guy-in-glasses-closeup.jpg" alt="Delete this">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">One more?</h3>
+								<div class="slide-text">
+									<p>Delete if we don't get one</p>
+								<div class="slide-button">
+									<button class="slide-btn button">Slideshow images to finish once I figure out css</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slide-item">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5">
+							<div class="slide-image">
+								<img src="images/slide3.png" alt="">
+							</div>
+						</div>
+						<div class="col-md-5 col-md-pull-7">
+							<div class="slide-info">
+								<h3 class="left-title">Placeholder</h3>
+								<div class="slide-text">
+									<p>placeholder 1</p>
+									<p>placeholer 2</p>
+								</div>
+								<div class="slide-button">
+									<button class="slide-btn button">Get high refresh rate screens</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo" id="promo">
+		<div class="container">
+			<h2 class="center-title white-title">Resolution</h2>
+			<div class="center-text promo-text">Resolution paragraph placeholder</div>
+			<div class="promo-video">
+				<img class="resolution-img" src="https://i.ytimg.com/vi/VkU0bjZwJ0o/maxresdefault.jpg" alt="screen comparison" style="width:500px;height:600px;">
+			</div>
+		</div>
+	</section>
+	<section class="digits">
+		<div class="container">
+			<h2 class="center-title">Lorem ipsum</h2>
+			<div class="center-text">The number of users using 1080p</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="85">
+							<div class="digits-circle-inner">
+								<span>85</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-user"></i>The number of our users using 720p/900p</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="68">
+							<div class="digits-circle-inner">
+								<span>68</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-windows"></i>The number of users using 1440p</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+					<div class="digits-item">
+						<div class="digits-circle" data-percent="42">
+							<div class="digits-circle-inner">
+								<span>42</span>%
+							</div>
+						</div>
+						<div class="digits-item-text"><i class="fa fa-mobile"></i>Phone screens placeholder</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="price" id="price">
+		<div class="container">
+			<h2 class="center-title">Price</h2>
+			<div class="center-text">Screens vary greatly in price depending on what you are looking for in a screen but mainly hover around the $500 mark for a regular screen.</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="price-item">
+						<div class="price-item-top">Basic screen</div>
+						<div class="price-value">$ <b>499/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+						</ul>
+						<button class="price-btn button">buy now (add link to site)</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="price-item color-price-item">
+						<div class="price-item-top">good midrange options</div>
+						<div class="price-value">$ <b>999/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+							<li>6.</li>
+							<li>7.</li>
+						</ul>
+						<button class="price-btn button">buy now</button>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-sm-offset-3 col-md-offset-0">
+					<div class="price-item">
+						<div class="price-item-top">Asus high refresh placeholder</div>
+						<div class="price-value">$ <b>1499 (demo price)/</b>mo.</div>
+						<ul class="price-list">
+							<li>1.</li>
+							<li>2.</li>
+							<li>3.</li>
+							<li>4.</li>
+							<li>5.</li>
+							<li>6.</li>
+						</ul>
+						<button class="price-btn button">buy now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="team" id="team">
+		<div class="container">
+			<h2 class="center-title">Team</h2>
+						<div class="col-md-3 col-sm-6">
+							<div class="screen-item">
+								<div class="Screen-image">
+									<img src="https://images-na.ssl-images-amazon.com/images/I/41vUM6y11bL._SL500_AC_SS350_.jpg" alt="Screen">
+								</div>
+								<div class="team-info">
+									<div class="team-name">Display adapters</div>
+									<div class="team-position">Co-creator</div>
+									<div class="team-about">About team if we want to include</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="buy">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<h3 class="left-title">Place holder for last title</h3>
+					<div class="row">
+						<div class="col-md-8">
+							<div class="buy-text">Plce holder for closing</div>
+						</div>
+						<div class="col-md-3 col-sm-offset-1">
+							<button class="buy-btn button">Buy</button>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+									<div class="clear"></div>
+								</div>
+								<div class="contacts-form-row">
+									<textarea class="contacts-textarea" placeholder="Comments"></textarea>
+								</div>
+								<button class="contacts-btn button">fun button (they are easier to place than remove)</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<iframe src="https://www.google.ca/maps/place/Silicon+Valley,+CA,+USA/@37.402473,-122.3212783,10z/data=!3m1!4b1!4m5!3m4!1s0x808fb68ad0cfc739:0x7eb356b66bd4b50e!8m2!3d37.387474!4d-122.0575434" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="footer-item">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-item">
+							<div class="footer-title">Share</div>
+							<div class="footer-text">
+								<div class="footer-social">
+									<a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="footer-item">
+							<div class="footer-title">Thanks</div>
+							<div class="footer-text">Thank you!</div>
+<section class="Sources" id="Sources">
+	<div class="footer-title">sources (incomplete)</div>
+	<li>https://en.wikipedia.org/wiki/History_of_display_technology</li>
+	<li>https://en.wikipedia.org/wiki/Plasma_displa</li>
+	<li>https://www.cnet.com/news/what-is-600hz/</li>
+	<li>https://www.reddit.com/r/pcgaming/comments/3j743i/frametimes/</li>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<br><a href="https://en.wikipedia.org/wiki/World" target="_blank">bloop another placeholder</a>
+			</div>
+		</div>
+	</footer>
+
+
+	<!--         -Popups-          -->
+	<!-- Overlay -->
+	<div class="overlay"></div>
+
+	<!-- Thanks popup -->
+	<div class="popup popup-thanks">
+		<div class="popup-close"><i class="fa fa-times"></i></div>
+		<div class="popup-inner">
+			<div class="thanks-text">Read this then click this</div>
+		</div>
+	</div>
+
+
+
+</body>
 </html>
